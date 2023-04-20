@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/Components/Navbar'
 import Hero from '@/Components/Hero'
 import { IoMapSharp } from 'react-icons/io5'
+import Footer from '@/Components/Footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -10,11 +11,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-    <div className='absolute'>
+    
       <Navbar />
       <Hero />
       <Show />
-    </div>
+      <Footer/>
     </>
   )
 }

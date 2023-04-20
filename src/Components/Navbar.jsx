@@ -62,7 +62,7 @@ function Head2() {
     return (
         <>
             <div className='flex items-center py-3  transition duration-300 child:text-xs justify-evenly '>
-                <div className='flex child:font-semibold gap-16 child:opacity-50 child-hover:opacity-100  justify-evenly'>
+                <div className='flex child:font-semibold gap-16 child:opacity-50 child-hover:opacity-100  justify-evenly '>
 
                     <div className=''>
                         <Image src='https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg' width={30} height={30} alt='logo' className='m-auto' />
